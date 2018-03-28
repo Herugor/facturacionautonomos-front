@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app id="inspire">
     <v-toolbar app>
       <v-toolbar-side-icon></v-toolbar-side-icon>
       <v-toolbar-title>Facturacion Autonomos</v-toolbar-title>
