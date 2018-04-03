@@ -1,7 +1,7 @@
 import Vue from 'vue'
-import 'vuetify/dist/vuetify.min.css'
 import Router from 'vue-router'
-import toolbar from '@/components/toolbar'
+import tablaFacturas from '@/components/tablaFacturas'
+import 'vuetify/dist/vuetify.min.css'
 
 Vue.use(Router)
 
@@ -9,8 +9,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Toolbar',
-      component: toolbar
+      name: 'TablaFacturas',
+      component: tablaFacturas
     }
   ]
 })
