@@ -17,7 +17,7 @@
         <td class="text-xs-right">{{ props.item.total }}</td>
       </template>
     </v-data-table>
-  </template>
+</template>
 
 <script>
 export default {
