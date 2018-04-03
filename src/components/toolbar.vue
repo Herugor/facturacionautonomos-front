@@ -1,6 +1,5 @@
 <template>
-  <v-app id="inspire">
-    <v-toolbar app>
+    <v-toolbar>
       <v-toolbar-side-icon></v-toolbar-side-icon>
       <v-toolbar-title>Facturacion Autonomos</v-toolbar-title>
       <v-spacer></v-spacer>
@@ -8,7 +7,6 @@
         <v-btn flat>Hola userName</v-btn>
       </v-toolbar-items>
     </v-toolbar>
-  </v-app>
 </template>
 
 <script>
